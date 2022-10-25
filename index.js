@@ -50,15 +50,15 @@ http
             <script>
               function loadProxy(url){
                 url = url.replace('//', '/')
-                window.location.href = 'https://Proxy.ttrmaniac.repl.co/proxy/' + url;
+                window.location.href = 'https://pj-cors.onrender.com/proxy/' + url;
               }
             </script>
             <body>
             <div id='cont'>
-              <h2>Proxy ADAM</h2>
+              <h2>PJ's CORS Project</h2>
               <form onsubmit="return false;">
-                <input id='url' type='url' placeholder='URL to websitw' autofocus></input>
-                <input id = 'sub' type='submit' value='Go!' onclick="loadProxy(document.getElementById('url').value)"></input>
+                <input id='url' type='url' placeholder='URL' autofocus></input>
+                <input id = 'sub' type='submit' value='View' onclick="loadProxy(document.getElementById('url').value)"></input>
               </form>
             </div>
             </body>`
